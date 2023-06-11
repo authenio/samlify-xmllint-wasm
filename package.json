@@ -1,5 +1,5 @@
 {
-  "name": "samlify-xmllint-wasm",
+  "name": "@authenio/samlify-xmllint-wasm",
   "version": "1.0.0",
   "description": "Validator module powered by xmllint-wasm",
   "main": "build/index.js",
