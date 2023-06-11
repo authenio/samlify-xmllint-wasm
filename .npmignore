@@ -2,4 +2,3 @@ node_modules
 yarn*
 *.ts
 tsconfig.json
-schemas
