@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "declaration": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "baseUrl": "./",
+    "removeComments": false,
+    "strictNullChecks": true,
+    "paths": {},
+    "lib": [
+      "ESNext"
+    ]
+  },
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "exclude": [
+    "**/node_modules"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}

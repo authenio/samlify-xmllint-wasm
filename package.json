@@ -1,0 +1,28 @@
+{
+  "name": "samlify-xmllint-wasm",
+  "version": "1.0.0",
+  "description": "Validator module powered by xmllint-wasm",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "yarn run clean && yarn run cp-schemas && tsc",
+    "cp-schemas": "mkdir -p build/schemas && cp -R schemas build",
+    "clean": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/authenio/samlify-xmllint-wasm.git"
+  },
+  "author": "tngan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/authenio/samlify-xmllint-wasm/issues"
+  },
+  "homepage": "https://github.com/authenio/samlify-xmllint-wasm#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "xmllint-wasm": "^4.0.0"
+  }
+}
